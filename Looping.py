@@ -1,5 +1,5 @@
 #While Loop
-'''i=1
+i=1
 while(i <= 10):
     print(i)
     i+=1
@@ -76,7 +76,8 @@ while(i<=5):
 else:
     print("Loop ended") 
 
-print("--------") 
+print("--------")
+
 i=1
 while(i<=5):
     if i==3:
@@ -84,7 +85,7 @@ while(i<=5):
     print(i)
     i+=1
 else:
-    print("Loop ended") '''
+    print("Loop ended") 
 
 #For Else
 for i in range(5):
