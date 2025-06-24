@@ -87,6 +87,41 @@
 #     a,b=b,a+b #1,1 1,2  2,3 3,5
 # print(sum)
   
+total=0
+j=0 
+
+while True: 
+ n=int(input("Enter no of item :"))
+ 
+ for i in range(n):
+   item=input("Enter amount of item {} :".format(j+1))
+   j=j+1 
+   
+
+   if item == "":
+    item="0"
+    j=j-1
+   total=total+float(item)
+ print("Total",total) 
+
+ x=input("do you want to continue ? 'yes' : 'no'")
+ if x=="yes":
+  continue
+ else:
+  print("Total no of product",j)
+  print("Total Amount:",total)
+  print("Thanks for shopping")
+  break
+
+  
+
+   
+   
+  
+
+
+    
+
 
 
 
