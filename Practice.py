@@ -112,6 +112,13 @@ while True:
   print("Total Amount:",total)
   print("Thanks for shopping")
   break
+ 
+ # find frequency(how many times each fruit appear)
+friuts=('apple','orange','banana','apple','banana','grapes','orange','banana','apple')
+freq={}
+for i,f in enumerate(friuts):
+    freq[f]=freq.get(f,0)+1
+print(freq) 
 
   
 
